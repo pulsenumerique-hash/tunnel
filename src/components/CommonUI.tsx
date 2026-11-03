@@ -30,7 +30,7 @@ export const BuyButton: React.FC<BuyButtonProps> = ({
       <a
         href={CHECKOUT_URL}
         target="_self"
-        className={`group relative inline-flex items-center justify-center gap-2.5 w-full sm:w-auto px-5 py-4 sm:px-9 sm:py-5 rounded-2xl font-black text-white text-sm sm:text-lg md:text-xl transition-all duration-300 shadow-xl cursor-pointer ${
+        className={`group relative min-h-[52px] sm:min-h-[60px] inline-flex items-center justify-center gap-2.5 w-full sm:w-auto px-5 py-4 sm:px-9 sm:py-5 rounded-2xl font-black text-white text-sm sm:text-lg md:text-xl transition-all duration-300 shadow-xl cursor-pointer ${
           pulse ? 'animate-gentle-pulse hover:scale-[1.02]' : 'hover:scale-[1.01]'
         } bg-gradient-to-r from-[#D97706] via-[#EA580C] to-[#C2410C] hover:from-[#B45309] hover:via-[#C2410C] hover:to-[#9A3412] active:scale-[0.98] leading-tight`}
         style={{

@@ -83,7 +83,7 @@ export const FinalCtaAndPs: React.FC = () => {
             <a
               href={CHECKOUT_URL}
               target="_self"
-              className="inline-flex items-center gap-2 text-sm sm:text-base font-extrabold text-[#D97706] hover:text-[#B45309] hover:underline"
+              className="min-h-[48px] inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm sm:text-base font-extrabold text-[#D97706] hover:text-[#B45309] hover:bg-amber-100/50 hover:underline transition-all"
             >
               <span>➔ Clique ici pour télécharger ton guide dès maintenant à 2 000 FCFA</span>
             </a>

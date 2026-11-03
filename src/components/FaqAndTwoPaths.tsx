@@ -41,7 +41,7 @@ export const FaqAndTwoPaths: React.FC = () => {
                 <button
                   type="button"
                   onClick={() => toggleAccordion(index)}
-                  className="w-full p-5 sm:p-6 text-left flex items-center justify-between gap-4 font-serif-display font-bold text-base sm:text-lg text-[#4A0E17] hover:text-[#D97706] transition-colors cursor-pointer"
+                  className="w-full min-h-[52px] p-5 sm:p-6 text-left flex items-center justify-between gap-4 font-serif-display font-bold text-base sm:text-lg text-[#4A0E17] hover:text-[#D97706] transition-colors cursor-pointer"
                   aria-expanded={isOpen}
                 >
                   <span className="flex items-start gap-3">
@@ -63,7 +63,7 @@ export const FaqAndTwoPaths: React.FC = () => {
                     <a
                       href={CHECKOUT_URL}
                       target="_self"
-                      className="inline-flex items-center gap-1.5 text-xs font-bold text-[#D97706] hover:text-[#B45309] hover:underline"
+                      className="min-h-[48px] inline-flex items-center gap-1.5 py-2 text-xs sm:text-sm font-bold text-[#D97706] hover:text-[#B45309] hover:underline"
                     >
                       <span>➔ Convaincue ? Rejoins-nous pour 2 000 FCFA</span>
                       <ArrowRight className="w-3.5 h-3.5" />
@@ -184,6 +184,17 @@ export const FaqAndTwoPaths: React.FC = () => {
 
               <div className="bg-emerald-100/80 p-3 rounded-xl text-center text-xs text-emerald-950 font-black">
                 Bilan : Tu as créé une source de revenus qui t'appartient à vie.
+              </div>
+
+              <div className="mt-4 pt-1">
+                <a
+                  href={CHECKOUT_URL}
+                  target="_self"
+                  className="w-full min-h-[48px] inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold text-xs sm:text-sm shadow-md active:scale-95 transition-all text-center uppercase tracking-wide cursor-pointer"
+                >
+                  <span>Je choisis le Chemin B (2 000 FCFA)</span>
+                  <ArrowRight className="w-4 h-4 shrink-0" />
+                </a>
               </div>
             </div>
           </div>

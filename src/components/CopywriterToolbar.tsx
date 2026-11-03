@@ -41,7 +41,7 @@ export const CopywriterToolbar: React.FC = () => {
       <div className="fixed top-14 right-2.5 sm:top-14 sm:right-4 z-40">
         <button
           onClick={() => setIsOpen(true)}
-          className="flex items-center gap-1.5 sm:gap-2 bg-[#4A0E17]/95 hover:bg-[#3B0A16] text-white px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-full shadow-lg text-[10px] sm:text-xs font-bold border border-amber-400/60 hover:scale-105 active:scale-95 transition-all backdrop-blur-xs"
+          className="min-h-[48px] flex items-center gap-1.5 sm:gap-2 bg-[#4A0E17]/95 hover:bg-[#3B0A16] text-white px-3.5 py-2.5 sm:px-4 sm:py-2.5 rounded-full shadow-lg text-xs font-bold border border-amber-400/60 hover:scale-105 active:scale-95 transition-all backdrop-blur-xs cursor-pointer"
           title="Ouvrir le panneau du Copywriter : Variantes Hero, Placeholders, Export HTML Systeme.io"
         >
           <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-amber-400 shrink-0" />

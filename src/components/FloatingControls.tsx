@@ -37,7 +37,7 @@ export const FloatingControls: React.FC = () => {
           rel="noopener noreferrer"
           onClick={handleWhatsAppClick}
           aria-label="Poser une question sur WhatsApp"
-          className="group flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-4 py-3 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 border-2 border-white/80"
+          className="group min-h-[48px] min-w-[48px] flex items-center gap-2 bg-[#25D366] hover:bg-[#20bd5a] text-white px-4 py-3 rounded-full shadow-2xl transition-all duration-300 hover:scale-105 active:scale-95 border-2 border-white/80"
           style={{ boxShadow: '0 8px 24px rgba(37, 211, 102, 0.4)' }}
         >
           <MessageCircle className="w-6 h-6 fill-white text-[#25D366] shrink-0" />
@@ -53,7 +53,7 @@ export const FloatingControls: React.FC = () => {
           <div className="bg-white rounded-3xl p-6 sm:p-8 max-w-md w-full shadow-2xl border border-amber-300 relative text-left">
             <button
               onClick={() => setShowWaModal(false)}
-              className="absolute top-4 right-4 p-2 text-neutral-400 hover:text-neutral-700 rounded-full"
+              className="absolute top-4 right-4 min-h-[48px] min-w-[48px] flex items-center justify-center text-neutral-400 hover:text-neutral-700 rounded-full"
               aria-label="Fermer"
             >
               <X className="w-5 h-5" />
@@ -77,7 +77,7 @@ export const FloatingControls: React.FC = () => {
             </div>
             <button
               onClick={() => setShowWaModal(false)}
-              className="w-full py-2.5 rounded-xl bg-[#5B1527] text-white text-xs font-bold hover:bg-[#3B0A16]"
+              className="w-full min-h-[48px] py-3 rounded-xl bg-[#5B1527] text-white text-xs sm:text-sm font-bold hover:bg-[#3B0A16] flex items-center justify-center"
             >
               Compris, je ferme
             </button>
@@ -105,7 +105,7 @@ export const FloatingControls: React.FC = () => {
           <a
             href={CHECKOUT_URL}
             target="_self"
-            className="flex-1 inline-flex items-center justify-center gap-2 py-3 px-4 rounded-xl bg-gradient-to-r from-[#D97706] to-[#EA580C] text-white font-extrabold text-xs sm:text-sm shadow-md active:scale-95 transition-all text-center uppercase tracking-wide"
+            className="flex-1 min-h-[50px] inline-flex items-center justify-center gap-2 py-3.5 px-4 rounded-xl bg-gradient-to-r from-[#D97706] to-[#EA580C] text-white font-extrabold text-xs sm:text-sm shadow-md active:scale-95 transition-all text-center uppercase tracking-wide"
           >
             <ShoppingBag className="w-4 h-4 shrink-0" />
             <span>J'achète maintenant</span>

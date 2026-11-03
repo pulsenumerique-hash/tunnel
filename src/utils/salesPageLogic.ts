@@ -173,7 +173,7 @@ export function generateStandaloneHtml(): string {
 
     <!-- CTA Button 1 -->
     <div class="mb-10">
-      <a href="${CHECKOUT_URL}" target="_self" class="btn-pulse inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-[#D97706] to-[#B45309] hover:from-[#B45309] hover:to-[#92400E] text-white font-extrabold text-lg sm:text-xl shadow-xl transition-all duration-200">
+      <a href="${CHECKOUT_URL}" target="_self" class="btn-pulse min-h-[52px] inline-flex items-center justify-center gap-3 px-8 py-4 rounded-xl bg-gradient-to-r from-[#D97706] to-[#B45309] hover:from-[#B45309] hover:to-[#92400E] text-white font-extrabold text-lg sm:text-xl shadow-xl transition-all duration-200">
         <span>OUI, JE VEUX MON GUIDE MAINTENANT (2 000 FCFA)</span>
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/></svg>
       </a>
