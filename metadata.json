@@ -1,0 +1,6 @@
+{
+  "name": "Ton Talent, Ta Liberté - Page de Vente Haute Conversion",
+  "description": "Page de vente haute conversion pour le guide 'Ton talent, ta liberté' par les promoteurs de À Cœur Ouvert, adaptée au marché d'Afrique francophone.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
